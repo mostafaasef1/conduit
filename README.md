@@ -1,5 +1,7 @@
 # CONDUIT // Sub-Surface Acoustic & LoRa Crisis OS
 
+### 🌐 **[Launch Live Interactive Simulator (Vercel)](https://conduit-hollow.vercel.app/)** · 📊 **[View 7-Slide Pitch Deck (PDF)](./CONDUIT_Hackathon_Pitch_Deck.pdf)** · 🎬 **[Watch 2m30s Demo Video](YOUR_UNLISTED_YOUTUBE_URL)**
+
 > **Hackathon Track:** *Life Underground — The Hollow (Year 2117)*  
 > **Problems Addressed Simultaneously:** **#1** (Blackout & Air Early Warning) · **#2 & #11** (Equitable Exodus & Sunlight Acclimation) · **#4** (Pre-Tap Bad Water Interception) · **#7** (Uncensorable Off-Grid Mesh + Live Audio Modem) · **#8** (Split-Family Proof-of-Life) · **#9 & #10** (Outbreak Truth Ledger & Street-Medic Routing) · **#13, #14 & #15** (Covert Surface Habitability Proof, Zero-RF Outpost Simulator & Staged Return)
 
@@ -24,7 +26,17 @@ When blackouts plunge Deep Levels `L08–L12` into multi-day darkness—or when 
 
 ---
 
-## 2. Scavenged Hollow Hardware BOM (~$6 Equivalent)
+## 2. Interactive Judge Walkthrough (Try It Live at [conduit-hollow.vercel.app](https://conduit-hollow.vercel.app/))
+
+1. **Inspect the 12-Level Hollow (`HOLLOW CROSS-SECTION`):** Click any level `L01–L12` (`-65m` to `-1,650m`) to inspect live `Grid Hz`, `O₂ %`, `Tap TDS`, and `Lung Cases`, and operate neighborhood bulkhead dampers, tap valves, and piezo pipe repeaters. Toggle **`AUDIO`** (top-right) to hear synthesized WebAudio pipe-modem FSK chirps and warning chimes.
+2. **Inject Simultaneous Crises (Top Crisis Bar):** Trigger **`Deep Blackout Cascade`**, **`DirNet Kill-Switch + Spoof`**, **`Recycler-8 Toxic Backflow`**, **`Vent-Shaft Lung Surge`**, or **`Surface Daybreak Proof`**—individually or all at once.
+3. **Lock Taps Faster Than Water Flows (`EARLY WARNING & WATER`):** Watch the live dual-trace `Hz / RPM` oscilloscope and click **`INTERCEPT & LOCK TAPS NOW`** on Loop C to protect `1,398k` deep-level residents before contaminated water arrives.
+4. **Send a Signed 64-Byte Kin Beacon (`KIN-LINK & OFF-GRID` + `L11 HANDSET`):** Compose a message to watch the color-coded **64-byte hex frame + CRC-16 checksum** pack byte-by-byte, or open **`L11 HANDSET`** (top-right) to test the 7%-battery dark-mode pocket communicator a resident in the Sump uses in pitch darkness.
+5. **Test Real Sound Transmission (`LIVE AUDIO MODEM`):** Click **`PLAY REAL MFSK SOUND`** or **`PIPE CHANNEL LOOPBACK`** (or arm **`ARM LIVE MIC RX`** on a second laptop/phone) to transmit and decode a real `CRC-8` verified survival packet over sound waves with zero Wi-Fi.
+
+---
+
+## 3. Scavenged Hollow Hardware BOM (~$6 Equivalent)
 
 | Component | Scavenged Source in the Hollow | Role in CONDUIT |
 |---|---|---|
@@ -35,52 +47,57 @@ When blackouts plunge Deep Levels `L08–L12` into multi-day darkness—or when 
 
 ---
 
-## 3. Repository Structure
+## 4. Repository Structure
 
 ```text
-conduit-hollow/
-├── index.html                          # Entry HTML shell & vector favicon
-├── package.json                        # React 19 + TypeScript + Vite 6 + Tailwind v4
-├── tsconfig.json                       # Strict TypeScript config
-├── vite.config.ts                      # Vite dev & production bundler config
-├── LICENSE                             # MIT License
-└── src/
-    ├── main.tsx                        # React root mount
-    ├── index.css                       # Sub-surface industrial styling & animations
-    ├── App.tsx                         # Real-time 12-level crisis physics & packet loop
-    ├── types/
-    │   └── hollow.ts                   # Domain models for levels, frames, kin & surface probe
-    ├── data/
-    │   └── initialHollow.ts            # Borehole-07 baseline state + real CRC-16 64B encoder
-    ├── utils/
-    │   └── sound.ts                    # Pure WebAudio piezo FSK, klaxon & solenoid synthesizer
-    └── components/
-        ├── TopCrisisBar.tsx            # Global KPIs, crisis injectors & navigation
-        ├── HollowCrossSection.tsx      # Tab 1: 12-level vertical schematic & node controls
-        ├── GridWaterGuard.tsx          # Tab 2: #1 Hz droop oscilloscope & #4 water lockout
-        ├── KinLinkMesh.tsx             # Tab 3: #7/#8 split-family board & 64B hex composer
-        ├── LungWatchDispatch.tsx       # Tab 4: #9/#10 outbreak truth gap & courier router
-        ├── SurfaceDaybreak.tsx         # Tab 5: #13–#15 storm-pipe surface probe & outpost sim
-        ├── AcousticModemLab.tsx        # Tab 6: Real WebAudio 16-MFSK speaker TX + mic FFT RX
-        ├── ResidentHandsetDrawer.tsx   # Floating L11 7%-battery dark-mode pocket device
-        └── JudgeBriefingModal.tsx      # Architecture & problem-mapping summary modal
+conduit/
+├── README.md                              # Project documentation & judge walkthrough
+├── CONDUIT_Hackathon_Pitch_Deck.pdf       # 7-slide architecture & pitch presentation
+└── conduit-hollow/                        # Web application & live crisis simulator
+    ├── index.html                         # Entry HTML shell & vector favicon
+    ├── package.json                       # React 19 + TypeScript + Vite 6 + Tailwind v4
+    ├── tsconfig.json                      # Strict TypeScript config
+    ├── vite.config.ts                     # Vite dev & production bundler config
+    ├── LICENSE                            # MIT License
+    └── src/
+        ├── main.tsx                       # React root mount
+        ├── index.css                      # Sub-surface industrial styling & animations
+        ├── App.tsx                        # Real-time 12-level crisis physics & packet loop
+        ├── types/
+        │   └── hollow.ts                  # Domain models for levels, frames, kin & surface probe
+        ├── data/
+        │   └── initialHollow.ts           # Borehole-07 baseline state + real CRC-16 64B encoder
+        ├── utils/
+        │   └── sound.ts                   # Pure WebAudio piezo FSK, klaxon & solenoid synthesizer
+        └── components/
+            ├── TopCrisisBar.tsx           # Global KPIs, crisis injectors & navigation
+            ├── HollowCrossSection.tsx     # Tab 1: 12-level vertical schematic & node controls
+            ├── GridWaterGuard.tsx         # Tab 2: #1 Hz droop oscilloscope & #4 water lockout
+            ├── KinLinkMesh.tsx            # Tab 3: #7/#8 split-family board & 64B hex composer
+            ├── LungWatchDispatch.tsx      # Tab 4: #9/#10 outbreak truth gap & courier router
+            ├── SurfaceDaybreak.tsx        # Tab 5: #13–#15 storm-pipe surface probe & outpost sim
+            ├── AcousticModemLab.tsx       # Tab 6: Real WebAudio 16-MFSK speaker TX + mic FFT RX
+            ├── ResidentHandsetDrawer.tsx  # Floating L11 7%-battery dark-mode pocket device
+            └── JudgeBriefingModal.tsx     # Architecture & problem-mapping summary modal
 ```
 
 ---
 
-## 4. Quick Start (Local Development & Production Build)
+## 5. Running Locally
 
 ### Prerequisites
 - **Node.js** `v18+` (LTS `v20` or `v22` recommended)
 
-### Install & Run
+### Clone, Install & Start
 ```bash
+git clone https://github.com/mostafaasef1/conduit.git
+cd conduit/conduit-hollow
 npm install
 npm run dev
 ```
 Open `http://localhost:5173` in your browser.
 
-### Build for Production (Vercel / Netlify / GitHub Pages)
+### Production Build
 ```bash
 npm run build
 npm run preview
@@ -88,6 +105,6 @@ npm run preview
 
 ---
 
-## 5. License
+## 6. License
 
-Released under the [MIT License](./LICENSE).
+Released under the [MIT License](./conduit-hollow/LICENSE).
