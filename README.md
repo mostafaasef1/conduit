@@ -1,6 +1,6 @@
 # CONDUIT // Sub-Surface Acoustic & LoRa Crisis OS
 
-### 🌐 **[Launch Live Interactive Simulator (Vercel)](https://conduit-hollow.vercel.app/)** · 📊 **[View 7-Slide Pitch Deck (PDF)](./CONDUIT_Hackathon_Pitch_Deck.pdf)** · 🎬 **[Watch 2m30s Demo Video](YOUR_UNLISTED_YOUTUBE_URL)**
+### 🌐 **[Launch Live Interactive Simulator (Vercel)](https://conduit-hollow.vercel.app/)** · 📊 **[View 7-Slide Pitch Deck (PDF)](./CONDUIT_Hackathon_Pitch_Deck.pdf)** · 🎬 **[Watch 2m30s Demo Video](https://youtu.be/wF9qHehBF0E)**
 
 > **Hackathon Track:** *Life Underground — The Hollow (Year 2117)*  
 > **Problems Addressed Simultaneously:** **#1** (Blackout & Air Early Warning) · **#2 & #11** (Equitable Exodus & Sunlight Acclimation) · **#4** (Pre-Tap Bad Water Interception) · **#7** (Uncensorable Off-Grid Mesh + Live Audio Modem) · **#8** (Split-Family Proof-of-Life) · **#9 & #10** (Outbreak Truth Ledger & Street-Medic Routing) · **#13, #14 & #15** (Covert Surface Habitability Proof, Zero-RF Outpost Simulator & Staged Return)
