@@ -1,6 +1,6 @@
 # CONDUIT // Sub-Surface Acoustic & LoRa Crisis OS
 
-### 🌐 **[Launch Live Interactive Simulator (Vercel)](https://conduit-hollow.vercel.app/)** · 📊 **[View 7-Slide Pitch Deck (PDF)](./CONDUIT_Hackathon_Pitch_Deck.pdf)** · 🎬 **[Watch 2m30s Demo Video](https://youtu.be/wF9qHehBF0E)**
+### 🌐 **[Launch Live Interactive Simulator](https://conduitos.vercel.app/)** · 🎬 **[Watch 2m30s Demo Video](https://youtu.be/wF9qHehBF0E)** · 📊 **[View 7-Slide Pitch Deck (PDF)](./CONDUIT_Hackathon_Pitch_Deck.pdf)**
 
 > **Hackathon Track:** *Life Underground — The Hollow (Year 2117)*  
 > **Problems Addressed Simultaneously:** **#1** (Blackout & Air Early Warning) · **#2 & #11** (Equitable Exodus & Sunlight Acclimation) · **#4** (Pre-Tap Bad Water Interception) · **#7** (Uncensorable Off-Grid Mesh + Live Audio Modem) · **#8** (Split-Family Proof-of-Life) · **#9 & #10** (Outbreak Truth Ledger & Street-Medic Routing) · **#13, #14 & #15** (Covert Surface Habitability Proof, Zero-RF Outpost Simulator & Staged Return)
@@ -26,7 +26,7 @@ When blackouts plunge Deep Levels `L08–L12` into multi-day darkness—or when 
 
 ---
 
-## 2. Interactive Judge Walkthrough (Try It Live at [conduit-hollow.vercel.app](https://conduit-hollow.vercel.app/))
+## 2. Interactive Judge Walkthrough (Try It Live at [conduitos.vercel.app](https://conduitos.vercel.app/))
 
 1. **Inspect the 12-Level Hollow (`HOLLOW CROSS-SECTION`):** Click any level `L01–L12` (`-65m` to `-1,650m`) to inspect live `Grid Hz`, `O₂ %`, `Tap TDS`, and `Lung Cases`, and operate neighborhood bulkhead dampers, tap valves, and piezo pipe repeaters. Toggle **`AUDIO`** (top-right) to hear synthesized WebAudio pipe-modem FSK chirps and warning chimes.
 2. **Inject Simultaneous Crises (Top Crisis Bar):** Trigger **`Deep Blackout Cascade`**, **`DirNet Kill-Switch + Spoof`**, **`Recycler-8 Toxic Backflow`**, **`Vent-Shaft Lung Surge`**, or **`Surface Daybreak Proof`**—individually or all at once.
